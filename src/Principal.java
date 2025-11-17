@@ -1,4 +1,6 @@
 import br.com.pedroaraujocdc.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.pedroaraujocdc.screenmatch.calculos.Recomendacao;
+import br.com.pedroaraujocdc.screenmatch.modelos.Episodio;
 import br.com.pedroaraujocdc.screenmatch.modelos.Filme;
 import br.com.pedroaraujocdc.screenmatch.modelos.Serie;
 
@@ -39,5 +41,15 @@ public class Principal {
         calculadora.inclui(outroFilme);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
+
+        Recomendacao filtro = new Recomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisuializacoes(300);
+        filtro.filtra(episodio);
+
     }
 }
