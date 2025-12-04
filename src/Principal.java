@@ -4,6 +4,8 @@ import br.com.pedroaraujocdc.screenmatch.modelos.Episodio;
 import br.com.pedroaraujocdc.screenmatch.modelos.Filme;
 import br.com.pedroaraujocdc.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
@@ -50,6 +52,21 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisuializacoes(300);
         filtro.filtra(episodio);
+
+        Filme filme2 = new Filme();
+        filme2.setDuracaoEmMinutos(200);
+        filme2.setNome("It");
+        filme2.setAnoDeLancamento(2008);
+        filme2.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme2);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro Filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+        System.out.println("To String: " + listaDeFilmes.get(0).toString());
 
     }
 }
