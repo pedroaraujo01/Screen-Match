@@ -1,3 +1,5 @@
+package br.com.pedroaraujocdc.screenmatch.principal;
+
 import br.com.pedroaraujocdc.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.pedroaraujocdc.screenmatch.calculos.Recomendacao;
 import br.com.pedroaraujocdc.screenmatch.modelos.Episodio;
