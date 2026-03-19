@@ -1,8 +1,8 @@
-package br.com.pedroaraujocdc.screenmatch.principal;
+package br.com.pedropgaraujo.screenmatch.principal;
 
-import br.com.pedroaraujocdc.screenmatch.modelos.Filme;
-import br.com.pedroaraujocdc.screenmatch.modelos.Serie;
-import br.com.pedroaraujocdc.screenmatch.modelos.Titulo;
+import br.com.pedropgaraujo.screenmatch.modelos.Filme;
+import br.com.pedropgaraujo.screenmatch.modelos.Serie;
+import br.com.pedropgaraujo.screenmatch.modelos.Titulo;
 
 import java.util.*;
 

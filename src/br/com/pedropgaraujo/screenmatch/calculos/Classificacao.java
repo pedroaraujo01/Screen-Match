@@ -1,4 +1,4 @@
-package br.com.pedroaraujocdc.screenmatch.calculos;
+package br.com.pedropgaraujo.screenmatch.calculos;
 
 public interface Classificacao {
     int getClassificacao();

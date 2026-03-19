@@ -1,10 +1,10 @@
-package br.com.pedroaraujocdc.screenmatch.principal;
+package br.com.pedropgaraujo.screenmatch.principal;
 
-import br.com.pedroaraujocdc.screenmatch.calculos.CalculadoraDeTempo;
-import br.com.pedroaraujocdc.screenmatch.calculos.Recomendacao;
-import br.com.pedroaraujocdc.screenmatch.modelos.Episodio;
-import br.com.pedroaraujocdc.screenmatch.modelos.Filme;
-import br.com.pedroaraujocdc.screenmatch.modelos.Serie;
+import br.com.pedropgaraujo.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.pedropgaraujo.screenmatch.calculos.Recomendacao;
+import br.com.pedropgaraujo.screenmatch.modelos.Episodio;
+import br.com.pedropgaraujo.screenmatch.modelos.Filme;
+import br.com.pedropgaraujo.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package br.com.pedroaraujocdc.screenmatch.excecao;
+package br.com.pedropgaraujo.screenmatch.excecao;
 
 public class ErroDeConversaoDeAnoException extends RuntimeException {
     private String mensagem;

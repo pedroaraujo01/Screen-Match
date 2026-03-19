@@ -1,7 +1,6 @@
-package br.com.pedroaraujocdc.screenmatch.modelos;
+package br.com.pedropgaraujo.screenmatch.modelos;
 
-import br.com.pedroaraujocdc.screenmatch.excecao.ErroDeConversaoDeAnoException;
-import com.google.gson.annotations.SerializedName;
+import br.com.pedropgaraujo.screenmatch.excecao.ErroDeConversaoDeAnoException;
 
 public class Titulo implements Comparable<Titulo>{
     private String nome;
@@ -84,8 +83,8 @@ public class Titulo implements Comparable<Titulo>{
 
     @Override
     public String toString() {
-        return "nome='" + nome + '\'' +
-                ", anoDeLancamento=" + anoDeLancamento + "," +
-                "duração= " + duracaoEmMinutos;
+        return "(nome= " + nome  +
+                ", anoDeLancamento= " + anoDeLancamento + "," +
+                "duração= " + duracaoEmMinutos + ")";
     }
 }

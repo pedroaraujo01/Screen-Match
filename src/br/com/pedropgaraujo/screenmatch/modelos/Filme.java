@@ -1,6 +1,6 @@
-package br.com.pedroaraujocdc.screenmatch.modelos;
+package br.com.pedropgaraujo.screenmatch.modelos;
 
-import br.com.pedroaraujocdc.screenmatch.calculos.Classificacao;
+import br.com.pedropgaraujo.screenmatch.calculos.Classificacao;
 
 public class Filme extends Titulo implements Classificacao {
     private String diretor;

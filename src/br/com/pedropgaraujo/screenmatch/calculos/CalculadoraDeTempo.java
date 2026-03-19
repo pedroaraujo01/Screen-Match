@@ -1,6 +1,6 @@
-package br.com.pedroaraujocdc.screenmatch.calculos;
+package br.com.pedropgaraujo.screenmatch.calculos;
 
-import br.com.pedroaraujocdc.screenmatch.modelos.Titulo;
+import br.com.pedropgaraujo.screenmatch.modelos.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;

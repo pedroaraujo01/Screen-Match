@@ -1,4 +1,4 @@
-package br.com.pedroaraujocdc.screenmatch.modelos;
+package br.com.pedropgaraujo.screenmatch.modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
